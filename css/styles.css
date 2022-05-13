@@ -277,7 +277,8 @@ img {
   height: 100%;
   border-radius: 50%;
 }
-.socials-link:hover {
+.socials-link:hover,
+.socials-link:focus {
   color: var(--white-accent);
   background-color: var(--accent-color);
 }
@@ -302,7 +303,8 @@ img {
   border-radius: 4px;
   color: var(--icon-color);
 }
-.clients-link:hover {
+.clients-link:hover,
+.clients-link:focus {
   color: var(--accent-color);
   border-color: var(--accent-color);
 }
@@ -396,7 +398,11 @@ img {
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.card:hover {
+.card .link {
+  display: block;
+}
+.card .link:hover,
+.card .link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
